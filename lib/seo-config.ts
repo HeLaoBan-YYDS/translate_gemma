@@ -7,7 +7,7 @@ export const seoConfig = {
   // 默认SEO设置
   defaultSEO: {
     zh: {
-      title: 'TranslateGemma - 不仅是翻译，更是语境的重塑 | 谷歌开源AI翻译模型',
+      title: 'TranslateGemma 在线翻译工具',
       description: '不再忍受"机翻味"。利用谷歌 TranslateGemma，在任何设备上实现母语级的语境翻译。基于最新的 Gemma 3 架构，支持55+语言，提供4B/12B/27B多模型版本，支持离线运行和云端部署。',
       keywords: 'TranslateGemma,TranslateGemma 翻译,TranslateGemma 开源翻译模型,Gemma 3 翻译,谷歌开源翻译模型,离线翻译,AI翻译,开源翻译模型,多语言翻译,私有化部署,Gemma 3,机器翻译,神经机器翻译,多模态翻译,拍照翻译,语境翻译,母语级翻译',
     },
