@@ -99,12 +99,6 @@ export function Navbar() {
             >
               {t("pricing")}
             </button>
-            <Link
-              href={getLocalizedPath("/blog")}
-              className="text-muted-foreground hover:text-primary transition-colors duration-300 font-medium hover:scale-105 transform"
-            >
-              {t("blog")}
-            </Link>
           </div>
 
           {/* Right side controls */}
