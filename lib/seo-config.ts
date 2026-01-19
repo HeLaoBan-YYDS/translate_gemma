@@ -1,20 +1,20 @@
 export const seoConfig = {
   baseUrl: process.env.NEXT_PUBLIC_BASE_URL || '',
-  siteName: 'Get SaaS',
+  siteName: 'TranslateGemma',
   defaultLocale: 'zh',
   locales: ['zh', 'en'],
-  
+
   // 默认SEO设置
   defaultSEO: {
     zh: {
-      title: 'Get SaaS - 专为出海设计的现代化SaaS模版',
-      description: 'Get SaaS是专为出海设计的现代化SaaS模版，集成完整的用户认证、支付系统、多语言支持、SEO优化等功能。基于Next.js构建，帮助开发者快速启动SaaS产品。',
-      keywords: 'SaaS模版,出海SaaS,Next.js模版,SaaS启动模版,多语言SaaS,支付集成,用户认证,SEO优化,现代化UI,响应式设计,TypeScript,Tailwind CSS,SaaS开发,快速启动,云原生,企业软件',
+      title: 'TranslateGemma - 不仅是翻译，更是语境的重塑 | 谷歌开源AI翻译模型',
+      description: '不再忍受"机翻味"。利用谷歌 TranslateGemma，在任何设备上实现母语级的语境翻译。基于最新的 Gemma 3 架构，支持55+语言，提供4B/12B/27B多模型版本，支持离线运行和云端部署。',
+      keywords: 'TranslateGemma,TranslateGemma 翻译,TranslateGemma 开源翻译模型,Gemma 3 翻译,谷歌开源翻译模型,离线翻译,AI翻译,开源翻译模型,多语言翻译,私有化部署,Gemma 3,机器翻译,神经机器翻译,多模态翻译,拍照翻译,语境翻译,母语级翻译',
     },
     en: {
-      title: 'Get SaaS - Modern SaaS Template Designed for Global Markets',
-      description: 'Get SaaS is a modern SaaS template designed for global markets, featuring complete user authentication, payment systems, multi-language support, and SEO optimization. Built with Next.js to help developers launch SaaS products quickly.',
-      keywords: 'SaaS Template,Global SaaS,Next.js Template,SaaS Starter,Multi-language SaaS,Payment Integration,User Authentication,SEO Optimization,Modern UI,Responsive Design,TypeScript,Tailwind CSS,SaaS Development,Quick Launch,Cloud Native,Enterprise Software',
+      title: 'TranslateGemma - Open Source AI Translation by Google DeepMind',
+      description: 'TranslateGemma is Google DeepMind\'s latest open-source translation model released in January 2026, supporting 55 languages, 500+ language pairs, offline usage and private deployment.',
+      keywords: 'translategemma,AI translation,open source translation,offline translation,Google DeepMind,multi-language translation,private deployment,Gemma 3,machine translation,neural machine translation,multimodal translation',
     }
   },
 
@@ -22,9 +22,9 @@ export const seoConfig = {
   pages: {
     blog: {
       zh: {
-        title: 'Get SaaS 博客 - SaaS开发技术分享与最佳实践',
-        description: '探索SaaS开发的最新技术动态和最佳实践，深入了解Next.js、用户认证、支付集成、多语言支持等SaaS产品开发的核心技术。',
-        keywords: 'SaaS开发博客,Next.js技术,用户认证,支付集成,多语言支持,SaaS架构,前端开发,全栈开发,TypeScript,Tailwind CSS',
+        title: 'TranslateGemma 博客 - AI翻译技术分享与最佳实践',
+        description: '探索 TranslateGemma 的最新翻译技术动态和最佳实践，深入了解 Gemma 3 架构、多模态翻译、离线部署、语境理解等AI翻译核心技术。',
+        keywords: 'TranslateGemma 博客,AI翻译技术,Gemma 3 架构,多模态翻译,离线翻译,语境翻译,机器翻译技术,开源翻译模型,翻译技术分享',
       },
       en: {
         title: 'Get SaaS Blog - SaaS Development Insights & Best Practices',
@@ -34,9 +34,9 @@ export const seoConfig = {
     },
     terms: {
       zh: {
-        title: '服务条款 - ITSAI Agent',
-        description: '查看ITSAI Agent声音AI智能体服务的使用条款，了解音频识别、声音生成等服务的使用规则、用户权利和责任。',
-        keywords: '服务条款,使用协议,用户协议,声音AI服务条款,音频处理服务规则,智能体服务协议',
+        title: '服务条款 - TranslateGemma',
+        description: '查看 TranslateGemma AI翻译服务的使用条款，了解服务使用规则、许可协议和用户权利责任。',
+        keywords: 'TranslateGemma 服务条款,使用协议,用户协议,AI翻译服务条款,翻译服务规则,开源翻译模型协议',
       },
       en: {
         title: 'Terms of Service - ITSAI Agent',
@@ -46,9 +46,9 @@ export const seoConfig = {
     },
     privacy: {
       zh: {
-        title: '隐私政策 - ITSAI Agent',
-        description: '了解ITSAI Agent如何收集、使用和保护您的音频数据和个人信息，保障您的隐私权益。',
-        keywords: '隐私政策,数据保护,个人信息,音频数据安全,隐私权,声音数据保护',
+        title: '隐私政策 - TranslateGemma',
+        description: '了解 TranslateGemma 如何处理用户数据和隐私保护，确保您的翻译内容安全。',
+        keywords: 'TranslateGemma 隐私政策,数据保护,个人信息,翻译数据安全,隐私权,本地离线翻译,数据隐私',
       },
       en: {
         title: 'Privacy Policy - ITSAI Agent',
@@ -58,9 +58,9 @@ export const seoConfig = {
     },
     cookies: {
       zh: {
-        title: 'Cookie政策 - ITSAI Agent',
-        description: '了解ITSAI Agent如何使用Cookie和相关技术来优化声音AI智能体服务体验。',
-        keywords: 'Cookie政策,网站Cookie,用户体验,数据收集,声音AI服务优化,网站分析',
+        title: 'Cookie政策 - TranslateGemma',
+        description: '了解 TranslateGemma 如何使用Cookie和相关技术来优化用户体验和网站性能。',
+        keywords: 'TranslateGemma Cookie政策,网站Cookie,用户体验,数据收集,翻译服务优化,网站分析',
       },
       en: {
         title: 'Cookie Policy - ITSAI Agent',
@@ -71,9 +71,9 @@ export const seoConfig = {
 
     'what-is-saas': {
       zh: {
-        title: '什么是SaaS？ - SaaS定义、商业模式和技术架构详解',
-        description: '深入了解SaaS的定义、商业模式和技术架构，以及如何快速构建现代化SaaS产品。从订阅模式到云原生架构，提供完整的SaaS开发指南。',
-        keywords: 'SaaS,软件即服务,SaaS定义,SaaS商业模式,SaaS技术架构,云计算,订阅模式,多租户架构,SaaS开发,现代化SaaS,云原生,企业软件',
+        title: 'TranslateGemma 可以应用在哪些场景？ - 翻译应用场景详解',
+        description: '深入了解 TranslateGemma 的应用场景，从个人日常翻译到企业跨境沟通，再到小语种文化交流的完整解决方案。',
+        keywords: 'TranslateGemma 应用场景,翻译场景,个人翻译,企业翻译,跨境沟通,小语种翻译,多语言沟通,翻译解决方案',
       },
       en: {
         title: 'What is SaaS? - SaaS Definition, Business Model and Technical Architecture Explained',
@@ -83,9 +83,9 @@ export const seoConfig = {
     },
     'saas-website-examples': {
       zh: {
-        title: 'Get SaaS可以做哪些网站？ - SaaS模版应用场景和案例详解',
-        description: '深入了解Get SaaS模版的应用场景，从电商平台到企业管理系统，再到在线教育平台的完整解决方案。探索SaaS模版在不同行业的实际应用案例。',
-        keywords: 'SaaS模版,SaaS应用场景,电商平台,企业管理系统,在线教育平台,项目管理工具,CRM系统,ERP系统,SaaS网站案例,SaaS开发,Get SaaS',
+        title: 'TranslateGemma 可以应用在哪些场景？ - 翻译应用场景和案例详解',
+        description: '深入了解 TranslateGemma 的应用场景，从个人日常翻译到企业跨境沟通，再到小语种文化交流的完整解决方案。探索 TranslateGemma 在不同行业的实际应用案例。',
+        keywords: 'TranslateGemma 应用场景,翻译场景,个人翻译,企业翻译,跨境沟通,小语种翻译,多语言沟通,翻译解决方案,翻译案例',
       },
       en: {
         title: 'What Websites Can Get SaaS Build? - SaaS Template Use Cases and Examples',
@@ -95,9 +95,9 @@ export const seoConfig = {
     },
     'saas-features': {
       zh: {
-        title: 'Get SaaS有什么功能？ - SaaS模版核心功能和技术特性详解',
-        description: '深入了解Get SaaS模版提供的核心功能：用户认证、支付系统、多语言支持、SEO优化等完整解决方案。探索现代化SaaS开发的技术栈和最佳实践。',
-        keywords: 'SaaS模版功能,用户认证系统,Stripe支付集成,多语言国际化,SEO优化,Next.js,TypeScript,PostgreSQL,SaaS开发,现代化技术栈,Get SaaS',
+        title: 'TranslateGemma 有什么核心功能？ - 翻译模型核心功能和技术特性详解',
+        description: '深入了解 TranslateGemma 提供的核心功能：场景化模式注入、本地隐私优先、两阶段微调增强、多模态理解等完整解决方案。探索 TranslateGemma 的技术架构和最佳实践。',
+        keywords: 'TranslateGemma 功能,场景化翻译,本地隐私优先,两阶段微调,多模态翻译,Gemma 3 架构,离线翻译,语境翻译,翻译技术特性',
       },
       en: {
         title: 'What Features Does Get SaaS Have? - SaaS Template Core Features and Technical Specifications',
@@ -137,14 +137,14 @@ export const seoConfig = {
 
   // 结构化数据设置
   organization: {
-    name: 'Get SaaS',
+    name: 'TranslateGemma',
     foundingDate: '2025',
-    industry: 'Software Development',
+    industry: 'AI Translation',
     numberOfEmployees: '1-10',
     contactEmail: 'app@itusi.cn',
     url: 'https://getsaaspro.com',
-    description: 'Modern SaaS template designed for global markets with complete authentication, payment systems, and multi-language support.',
-    keywords: ['SaaS Template', 'Next.js', 'TypeScript', 'Global Markets', 'Multi-language'],
+    description: 'TranslateGemma 是 Google 基于 Gemma 3 架构开发的开源翻译模型，支持 55+ 语言，提供离线运行和云端部署，实现母语级的语境翻译。',
+    keywords: ['TranslateGemma', 'AI Translation', 'Gemma 3', 'Open Source Translation', 'Multi-language Translation', 'Offline Translation'],
     sameAs: [
       'https://github.com/ItusiAI',
       'https://twitter.com/zyailive'
@@ -156,11 +156,11 @@ export const seoConfig = {
 export function getPageSEO(page: string, locale: string) {
   const pageSEO = seoConfig.pages[page as keyof typeof seoConfig.pages]
   const defaultSEO = seoConfig.defaultSEO[locale as keyof typeof seoConfig.defaultSEO]
-  
+
   if (pageSEO && pageSEO[locale as keyof typeof pageSEO]) {
     return pageSEO[locale as keyof typeof pageSEO]
   }
-  
+
   return defaultSEO
 }
 

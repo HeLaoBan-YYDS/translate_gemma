@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "TranslateGemma - 专业级AI翻译引擎，支持55+语种互译",
-    "description": "TranslateGemma是Google基于Gemma 3架构开发的开源翻译模型，支持55种语言互译，优化小语种与口语俚语翻译，提供4B/12B/27B多模型版本，部署灵活高效",
+    "title": "TranslateGemma - 不仅是翻译，更是语境的重塑 | 谷歌开源AI翻译模型",
+    "description": "不再忍受机翻味。利用谷歌 TranslateGemma，在任何设备上实现母语级的语境翻译。基于最新的 Gemma 3 架构，提供具备智能密度的翻译引擎，支持55+语言，支持离线运行和云端部署。",
     "terms": {
       "title": "服务条款 - TranslateGemma",
       "description": "查看TranslateGemma AI翻译服务的使用条款，了解服务使用规则、许可协议和用户权利责任"
@@ -19,7 +19,7 @@
     "prefix": "这是",
     "productName": "TranslateGemma",
     "suffix": "演示站点，体验完整功能后",
-    "cta": "立即获取开源模型"
+    "cta": "立即免费试用"
   },
   "navbar": {
     "home": "首页",
@@ -30,97 +30,103 @@
     "signIn": "登录",
     "profile": "个人中心",
     "accountSettings": "账户设置",
-    "signOut": "退出登录"
+    "signOut": "退出登录",
+    "language": {
+      "zh": "中文",
+      "zhShort": "中",
+      "en": "English",
+      "enShort": "EN"
+    }
   },
   "hero": {
-    "title": "55+语种AI翻译引擎\n精准处理口语俚语与小语种",
-    "description": "TranslateGemma基于Google Gemma 3架构深度优化，通过监督微调和强化学习，提供自然流畅的翻译结果，支持多平台灵活部署，覆盖个人与企业全场景需求",
+    "title": "不再忍受机翻味。\n利用谷歌 TranslateGemma，在任何设备上实现母语级的语境翻译。",
+    "description": "基于最新的 Gemma 3 架构，我们提供具备智能密度的翻译引擎。无论是在移动端离线运行 4B 模型，还是在云端部署 27B 旗舰版本，TranslateGemma 都能精准捕捉俚语、口语与商业语境中的细微差别。",
     "badge": "🚀 开源多语言翻译解决方案",
     "features": {
-      "readyToUse": "开箱即用",
-      "multiScenario": "多语种覆盖",
-      "professionalOutput": "灵活部署"
+      "readyToUse": "无需信用卡",
+      "multiScenario": "隐私安全保障",
+      "professionalOutput": "支持 55+ 语言"
     }
   },
   "features": {
-    "title": "核心功能特性，重塑翻译体验",
+    "title": "为什么选择 TranslateGemma？",
     "liveGeneration": "快速部署",
     "contentSummaryAgent": {
-      "title": "多语言&小语种支持",
-      "description": "支持55种核心语言互译，扩展近500个语言对，特别优化冰岛语、斯瓦希里语等低资源小语种翻译，准确率显著提升"
+      "title": "极致的智能密度",
+      "description": "4B 模型针对移动端优化，12B 模型在消费级笔记本上即可流畅运行，响应速度提升 2 倍以上。原生多模态：直接提取并翻译图像中的文本（如菜单、告示），无需额外的 OCR 插件，保持视觉语境一致性。"
     },
     "podcastAgent": {
-      "title": "高质量口语翻译",
-      "description": "采用监督微调和强化学习训练，精准处理俚语、网络用语和日常口语，译文自然流畅，告别机械直译"
+      "title": "优雅的失败逻辑",
+      "description": "即使在处理低资源语言（如泰语、越南语）时，也能通过强化学习（RL）减少幻觉，生成自然的表达方式。场景化模式注入：基于特定的 Chat Template 引导，在口语与公文模式间自由切换，告别误读。"
     }
   },
   "faq": {
-    "title": "关于TranslateGemma的常见问题",
+    "title": "常见问题",
     "categories": {
       "usage": "使用相关",
       "pricing": "价格方案"
     },
     "usage": {
       "howToStart": {
-        "question": "如何开始使用TranslateGemma？",
-        "answer": "非常简单！个人用户可直接注册获取免费Credits在线使用；开发者可下载开源模型，通过Python环境配置运行，支持Ollama一键部署；企业用户可联系我们获取定制化部署方案。"
+        "question": "TranslateGemma 真的能离线运行吗？",
+        "answer": "是的。4B 和 12B 模型专为个人计算设备设计，您可以使用 Ollama 或本地应用在完全断网的环境下运行。"
       },
       "voiceQuality": {
-        "question": "TranslateGemma的翻译质量如何？",
-        "answer": "TranslateGemma针对翻译任务深度优化，在WMT24++测试中，12B模型表现超过传统27B基线模型，错误率显著降低。尤其擅长处理口语俚语和小语种翻译，译文自然流畅。"
+        "question": "它的翻译质量真的比 Google Translate 好吗？",
+        "answer": "在 WMT24++ 等专业基准测试中，经过两阶段微调的 TranslateGemma 在语境自然度和保真度上表现更优，尤其适合处理非结构化和非正式文本。"
       },
       "contentOwnership": {
-        "question": "使用TranslateGemma的翻译结果版权归谁？",
-        "answer": "用户使用TranslateGemma生成的翻译结果版权归用户所有，TranslateGemma仅提供翻译技术支持，不拥有任何用户上传内容及翻译结果的所有权。"
+        "question": "如何接入我的现有工作流？",
+        "answer": "我们提供标准的 OpenAI 兼容接口，并支持 apply_chat_template 系统，您可以极低成本地将 TranslateGemma 集成到您的 SaaS 产品中。"
       },
       "dataPrivacy": {
         "question": "我的翻译数据安全吗？",
-        "answer": "是的，TranslateGemma重视数据安全。在线使用时翻译数据加密传输，开源模型支持私有化部署，所有用户数据仅用于翻译服务，不会泄露给第三方。"
+        "answer": "是的，TranslateGemma 重视数据安全。支持全离线推理 (Local Inference)，商业秘密不出设备，完全掌控您的数据资产。在线使用时翻译数据加密传输，所有用户数据仅用于翻译服务，不会泄露给第三方。"
       }
     },
     "pricing": {
       "pointsExpiry": {
         "question": "购买后是否提供技术支持？",
-        "answer": "是的，专业版提供1年技术支持，企业版提供7×24小时技术支持。包括安装指导、功能咨询、问题解决等。开源版用户可通过社区获得支持。"
+        "answer": "是的，专业版提供优先技术支持，企业版提供 7×24 小时技术支持。包括安装指导、功能咨询、问题解决等。基础版用户可通过社区获得支持。"
       },
       "upgradeAnytime": {
-        "question": "我可以随时升级TranslateGemma方案吗？",
+        "question": "我可以随时升级 TranslateGemma 方案吗？",
         "answer": "当然可以！您可以随时升级到更高版本的方案。升级后立即获得新功能和更长的技术支持期，已购买的许可证继续有效。"
       },
       "enterpriseFeatures": {
-        "question": "企业版TranslateGemma包括哪些特殊功能？",
-        "answer": "企业版提供27B高精度模型定制化开发服务、私有化部署支持、7×24小时技术支持、团队培训与咨询，以及行业术语库微调服务，完全根据您的业务需求量身打造解决方案。"
+        "question": "企业版 TranslateGemma 包括哪些特殊功能？",
+        "answer": "企业版提供 27B 高精度模型定制化开发服务、私有化部署支持、7×24 小时技术支持、团队培训与咨询，以及自定义行业语料库微调服务，完全根据您的业务需求量身打造解决方案。"
       }
     }
   },
   "pricing": {
-    "title": "选择适合您的翻译方案",
+    "title": "透明定价",
     "recommended": "推荐",
     "free": {
-      "name": "开源免费版",
-      "price": "$0",
-      "description": "适合个人开发者和小型项目，体验核心翻译功能",
+      "name": "基础版 (Personal)",
+      "price": "$0 / 月",
+      "description": "访问 4B/12B 本地模型，每日 10k 字符免费额度，基础社区支持",
       "features": {
-        "template": "4B模型完整源码下载",
-        "auth": "基础文本翻译功能",
-        "support": "社区技术支持"
+        "template": "访问 4B/12B 本地模型",
+        "auth": "每日 10k 字符免费额度",
+        "support": "基础社区支持"
       },
-      "cta": "免费下载"
+      "cta": "立即下载"
     },
     "pro": {
-      "name": "专业版",
-      "price": "$49",
+      "name": "专业版 (Pro)",
+      "price": "$19 / 月",
       "originalPrice": "$99",
       "discountPercent": "50",
       "savings": "$50",
       "discountBadge": "限时50%折扣",
-      "description": "适合初创公司和中小企业，兼顾质量与效率",
+      "description": "访问 27B 旗舰云端 API，无限次翻译请求，优先技术支持",
       "features": {
-        "template": "12B模型商用授权",
-        "payment": "多模态翻译（文本+图片）",
-        "support": "1年技术支持"
+        "template": "访问 27B 旗舰云端 API",
+        "payment": "无限次翻译请求",
+        "support": "优先技术支持"
       },
-      "cta": "立即购买"
+      "cta": "立即升级"
     },
     "discount": {
       "was": "原价",
@@ -129,20 +135,20 @@
       "off": "折扣"
     },
     "enterprise": {
-      "name": "企业版",
+      "name": "企业版 (Enterprise)",
       "price": "联系我们",
-      "description": "适合大型企业和定制化需求，高精度翻译场景",
+      "description": "私有云镜像部署，自定义行业语料库微调，SLA 服务等级协议保证",
       "features": {
-        "custom": "27B模型定制化部署",
-        "deployment": "私有化部署支持",
-        "support": "7×24小时技术支持",
-        "training": "行业术语微调培训"
+        "custom": "私有云镜像部署",
+        "deployment": "自定义行业语料库微调",
+        "support": "SLA 服务等级协议保证",
+        "training": "7×24小时技术支持"
       },
-      "cta": "咨询方案"
+      "cta": "预约演示"
     }
   },
   "footer": {
-    "description": "TranslateGemma是Google基于Gemma 3架构开发的开源翻译模型系列，支持55种语言互译，优化小语种与口语俚语翻译，部署灵活高效，助力跨语言无障碍沟通",
+    "description": "准备好体验语境级翻译了吗？加入 10,000+ 开发者与跨境卖家的选择。TranslateGemma 基于 Google Gemma 3 架构，支持 55+ 语言，提供离线运行和云端部署，助力跨语言无障碍沟通。",
     "services": {
       "title": "服务",
       "features": "功能特性",
@@ -166,6 +172,7 @@
       "description": "获取TranslateGemma最新模型更新和翻译技术动态",
       "placeholder": "请输入您的邮箱地址",
       "subscribe_button": "订阅",
+      "subscribing": "订阅中...",
       "success": "订阅成功！",
       "subscribe": {
         "successMessage": "订阅成功！感谢您的订阅，我们会定期向您发送TranslateGemma相关的最新资讯。",
@@ -184,6 +191,10 @@
         "backToHome": "返回首页",
         "networkError": "网络错误，请稍后重试",
         "unsubscribeError": "取消订阅失败"
+      },
+      "language": {
+        "zh": "中文",
+        "en": "English"
       }
     },
     "copyright": "TranslateGemma. 版权所有."
@@ -612,8 +623,46 @@
     "signInAgain": "重新登录"
   },
   "testimonials": {
-    "title": "用户评价",
-    "description": "加入数千名已经在使用 TranslateGemma 进行高效翻译的用户和企业"
+    "title": "行业认可",
+    "description": "受全球数千名跨境先行者信赖。TranslateGemma 12B 的表现甚至超越了参数量两倍于它的 27B 基准模型。这是本地化开发的重大突破。",
+    "items": [
+      {
+        "name": "Alex Johnson",
+        "title": "跨境电商CEO",
+        "content": "TranslateGemma 帮我们在跨境业务中实现了真正的语境翻译！12B 模型在消费级笔记本上流畅运行，翻译质量远超传统工具，让我们轻松进入新市场。",
+        "rating": 5
+      },
+      {
+        "name": "Sarah Miller",
+        "title": "国际化产品经理",
+        "content": "The offline capability of TranslateGemma is incredible! We can now provide translation services even in areas with poor connectivity. The 4B model runs perfectly on mobile devices.",
+        "rating": 5
+      },
+      {
+        "name": "李明",
+        "title": "技术总监",
+        "content": "作为技术总监，我对 TranslateGemma 的 Gemma 3 架构印象深刻。多模态翻译功能让我们的产品可以直接翻译图片中的文字，用户体验大幅提升。",
+        "rating": 5
+      },
+      {
+        "name": "David Chen",
+        "title": "开发者",
+        "content": "The OpenAI-compatible API makes integration seamless! We integrated TranslateGemma into our SaaS product in just hours. The context-aware translation is a game-changer.",
+        "rating": 5
+      },
+      {
+        "name": "王小雨",
+        "title": "独立开发者",
+        "content": "TranslateGemma 的本地隐私优先设计让我放心使用。支持全离线推理，商业秘密不出设备，完全掌控数据资产。这对我们来说非常重要。",
+        "rating": 5
+      },
+      {
+        "name": "Michael Rodriguez",
+        "title": "企业用户",
+        "content": "Perfect for enterprise deployment! The 27B model with custom domain fine-tuning has transformed our multilingual customer support. Translation quality is now native-level.",
+        "rating": 5
+      }
+    ]
   },
   "blogPage": {
     "title": "TranslateGemma 博客",
@@ -622,8 +671,8 @@
       "badge": "最新",
       "date": "2026年1月",
       "author": "TranslateGemma Team",
-      "title": "联系我们 - 让我们一起探索AI翻译的无限可能",
-      "description": "我们很高兴与您建立联系！无论您是想了解我们的翻译模型服务，还是有任何技术问题，我们都随时准备为您提供帮助。",
+      "title": "立即开始您的无界沟通",
+      "description": "准备好体验语境级翻译了吗？加入 10,000+ 开发者与跨境卖家的选择。",
       "contactMethods": {
         "title": "🤝 联系方式",
         "twitter": {
@@ -652,8 +701,8 @@
       },
       "cta": {
         "title": "准备开始您的AI翻译之旅了吗？",
-        "startNow": "立即开始",
-        "contactUs": "联系我们"
+        "startNow": "注册免费账户",
+        "contactUs": "查看开发者文档"
       }
     },
     "otherPosts": {
@@ -669,7 +718,7 @@
         "category": "产品介绍",
         "date": "2026年1月",
         "title": "TranslateGemma有什么核心功能？",
-        "excerpt": "深入了解TranslateGemma提供的核心功能：55+语种支持、口语俚语优化、多模型部署、多模态翻译等完整解决方案。"
+        "excerpt": "深入了解TranslateGemma提供的核心功能：场景化模式注入、本地隐私优先、两阶段微调增强、多模态理解等完整解决方案。"
       },
       "post3": {
         "category": "行业洞察",

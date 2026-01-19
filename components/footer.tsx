@@ -104,13 +104,13 @@ export function Footer() {
                 <div className="relative w-8 h-8">
                   <Image
                     src="/logo.png"
-                    alt="Get SaaS Logo"
+                    alt="TranslateGemma Logo"
                     fill
                     className="object-contain"
                   />
                 </div>
                 <span className="text-xl font-bold text-primary">
-                  Get SaaS
+                  TranslateGemma
                 </span>
               </Link>
               <p className="text-muted-foreground leading-relaxed max-w-sm">
@@ -190,7 +190,7 @@ export function Footer() {
                 {isLoading ? (
                   <>
                     <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>
-                    {locale === 'zh' ? '订阅中...' : 'Subscribing...'}
+                    {t('newsletter.subscribing')}
                   </>
                 ) : isSubscribed ? (
                   <>
@@ -259,7 +259,7 @@ export function Footer() {
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-primary hover:bg-secondary/50 transition-all duration-300">
                   <Globe className="h-4 w-4 mr-2" />
-                  {locale === "zh" ? "中文" : "English"}
+                  {locale === "zh" ? t("newsletter.language.zh") : t("newsletter.language.en")}
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent className="bg-secondary border-border">
@@ -267,13 +267,13 @@ export function Footer() {
                   onClick={() => switchLocale("zh")}
                   className="text-foreground hover:text-primary hover:bg-secondary/50"
                 >
-                  中文
+                  {t("newsletter.language.zh")}
                 </DropdownMenuItem>
                 <DropdownMenuItem
                   onClick={() => switchLocale("en")}
                   className="text-foreground hover:text-primary hover:bg-secondary/50"
                 >
-                  English
+                  {t("newsletter.language.en")}
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>

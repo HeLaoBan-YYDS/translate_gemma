@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react'
-import { useTranslations } from 'next-intl'
+import { useTranslations, useMessages } from 'next-intl'
 import Image from 'next/image'
 
 interface Testimonial {
@@ -16,60 +16,26 @@ interface Testimonial {
   avatar: string
 }
 
-const testimonials: Testimonial[] = [
-  {
-    id: 1,
-    name: "Alex Johnson",
-    title: "创业公司CEO",
-    content: "Get SaaS 帮我们在2周内就上线了MVP！完整的用户认证和支付系统让我们专注于核心业务逻辑，节省了至少3个月的开发时间。",
-    rating: 5,
-    avatar: "/avatars/alex.jpg"
-  },
-  {
-    id: 2,
-    name: "Sarah Miller",
-    title: "全栈开发者",
-    content: "This template is incredible! The multi-language support and SEO optimization saved us months of development. We launched globally from day one.",
-    rating: 5,
-    avatar: "/avatars/sarah.jpg"
-  },
-  {
-    id: 3,
-    name: "李明",
-    title: "技术总监",
-    content: "作为技术总监，我对Get SaaS的代码质量印象深刻。TypeScript + Next.js的架构非常现代化，团队很快就能上手开发。",
-    rating: 5,
-    avatar: "/avatars/liming.jpg"
-  },
-  {
-    id: 4,
-    name: "David Chen",
-    title: "产品经理",
-    content: "The Stripe integration is seamless! We had our subscription billing up and running in hours, not weeks. The template handles all the complex payment flows perfectly.",
-    rating: 5,
-    avatar: "/avatars/david.jpg"
-  },
-  {
-    id: 5,
-    name: "王小雨",
-    title: "独立开发者",
-    content: "Get SaaS的多语言支持让我的产品轻松进入国际市场。SEO优化也做得很到位，搜索引擎排名提升明显。",
-    rating: 5,
-    avatar: "/avatars/wangxiaoyu.jpg"
-  },
-  {
-    id: 6,
-    name: "Michael Rodriguez",
-    title: "SaaS创始人",
-    content: "Perfect for rapid prototyping! The authentication system, database setup, and UI components are production-ready. We went from idea to launch in 3 weeks.",
-    rating: 5,
-    avatar: "/avatars/michael.jpg"
-  }
-]
-
 export function Testimonials() {
   const t = useTranslations('testimonials')
+  const messages = useMessages()
   const [currentIndex, setCurrentIndex] = useState(0)
+
+  // 从翻译文件读取评价数据
+  const testimonials: Testimonial[] = Array.from({ length: 6 }, (_, i) => {
+    // Access rating directly from messages object as it's a number, not a string
+    const testimonialsMessages = messages.testimonials as any
+    const ratingValue = testimonialsMessages?.items?.[i]?.rating ?? 5
+    
+    return {
+      id: i + 1,
+      name: t(`items.${i}.name`),
+      title: t(`items.${i}.title`),
+      content: t(`items.${i}.content`),
+      rating: typeof ratingValue === 'number' ? ratingValue : 5,
+      avatar: `/avatars/${i + 1}.jpg`
+    };
+  })
 
   const nextTestimonial = () => {
     setCurrentIndex((prev) => (prev + 1) % testimonials.length)
