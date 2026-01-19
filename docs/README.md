@@ -42,6 +42,7 @@
 - [ ] Stripe API 密钥和产品 ID
 - [ ] Google OAuth 客户端凭据
 - [ ] GitHub OAuth 客户端凭据
+- [ ] 百度翻译 API 密钥和 AppID
 
 #### ✅ 管理员权限设置
 - [ ] 设置管理员账户
@@ -94,6 +95,12 @@ GOOGLE_CLIENT_SECRET="GOCSPX-abcdefghijklmnopqrstuvwxyz123456"
 # GitHub OAuth
 GITHUB_ID="abcdef1234567890abcd"
 GITHUB_SECRET="abcdef1234567890abcdef1234567890abcdef12"
+
+# ===========================================
+# 翻译服务配置 | Translation Service Configuration
+# ===========================================
+FANYI_KEY="your-baidu-translation-api-key"
+FANYI_APPID="your-baidu-translation-appid"
 
 # ===========================================
 # 应用配置 | Application Configuration

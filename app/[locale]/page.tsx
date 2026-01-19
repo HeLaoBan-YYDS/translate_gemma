@@ -3,6 +3,7 @@
 import { useEffect } from "react"
 
 import { Navbar } from "@/components/navbar"
+import { TranslateTool } from "@/components/translate-tool"
 import { HeroSection } from "@/components/hero-section"
 import { FeaturesSection } from "@/components/features-section"
 import { PricingSection } from "@/components/pricing-section"
@@ -32,6 +33,10 @@ export default function ChinesePage() {
 
       <Navbar />
       <main>
+        {/* 翻译工具 - 放在首页最顶部 */}
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-4">
+          <TranslateTool />
+        </div>
         <HeroSection />
         <FeaturesSection />
         <PricingSection />

@@ -196,6 +196,12 @@ GITHUB_ID="abcdef1234567890abcd"
 GITHUB_SECRET="abcdef1234567890abcdef1234567890abcdef12"
 
 # ===========================================
+# 翻译服务配置 | Translation Service Configuration
+# ===========================================
+FANYI_KEY="your-baidu-translation-api-key"
+FANYI_APPID="your-baidu-translation-appid"
+
+# ===========================================
 # 应用配置 | Application Configuration
 # ===========================================
 NEXT_PUBLIC_APP_URL="http://localhost:3000"
