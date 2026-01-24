@@ -1,0 +1,30 @@
+# LLMs.txt for TranslateGemma
+# Domain: translategemma.one
+
+# 允许访问的路径
+Allow: /
+Allow: /en/
+Allow: /zh/
+Allow: /blog/
+Allow: /terms
+Allow: /privacy
+Allow: /cookies
+
+# 禁止访问的路径
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /profile/
+Disallow: /auth/
+Disallow: /unauthorized/
+
+# 内容使用政策
+# 本网站内容仅供参考和非商业用途
+# 如需商业使用，请联系我们获得授权
+
+# 联系信息
+Contact: contact@translategemma.one
+
+# 最后更新时间
+Last-Updated: 2025-01-20
