@@ -40,7 +40,6 @@ export function Blog() {
               <CardTitle className="text-lg group-hover:text-primary transition-colors duration-300 cursor-pointer hover:text-primary line-clamp-2 text-foreground">
                   {t('post1.title')}
               </CardTitle>
-
               <CardDescription className="text-muted-foreground leading-relaxed mt-3 text-sm line-clamp-3">
                 {t('post1.excerpt')}
               </CardDescription>
